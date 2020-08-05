@@ -1,5 +1,7 @@
 # Handwritten Text Recognition with TensorFlow
 
+The repo now supports TensorFlow 2+. Also made some small changes.
+Haven't added support for WordBeamSearch (https://github.com/githubharald/CTCWordBeamSearch) yet.
 Handwritten Text Recognition (HTR) system implemented with TensorFlow (TF) and trained on the IAM off-line HTR dataset.
 This Neural Network (NN) model recognizes the text contained in the images of segmented words as shown in the illustration below.
 As these word-images are smaller than images of complete text-lines, the NN can be kept small and training on the CPU is feasible.
@@ -28,9 +30,9 @@ Probability: 0.96625507
 
 Tested with:
 
-* Python 2 and Python 3
-* TF 1.3, 1.10 and 1.12
-* Ubuntu 16.04 and Windows 7
+* Python 3.7
+* TF 2.1.0
+* Windows 10
 
 
 ## Command line arguments
